@@ -40,7 +40,7 @@ const board = [
 
             let row = Math. floor (Math.random() * 4)
         
-            let col = Math. Floor (Math. random() * 4)
+            let col = Math. floor (Math. random() * 4)
         
             if (board[row][col] == 0) {
         
