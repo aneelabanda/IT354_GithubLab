@@ -19,3 +19,18 @@ background-color: #ccc; gap: 2vmin;
 padding: 2vmin; border-radius: 1vmin;
 position: relative;
 }
+/* adding css for the tile and active class */
+.tile {
+border-radius: 1vmin;
+background-color: #aaa;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #111;
+font-weight: bold;
+}
+
+.active{
+    background-color: hsl(10, 50%,50);
+    
+}
