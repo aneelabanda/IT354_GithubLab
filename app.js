@@ -29,7 +29,7 @@ const board = [
         if (board[row][col] >= 128) {
         boardContainer.children(elem).style.color = "white";
         }
-        boardContainer.children[elem].innerText = board[row][co];
+        boardContainer.children[elem].innerText = board[row][col];
         boardContainer.children[elem].style.backgroundColor = changeColor (row, col);
         elem++
         }
