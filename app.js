@@ -62,6 +62,36 @@ const board = [
         
             console. log ("game over");
             }
+
         }
         }
+        window.addEventListener('keyup', (e) => {
+            switch (e.key) {
+                case "ArrowUp":
+                    moveUp();
+                    break;
+                case "ArrowDown":
+                    moveDown();
+                    break;
+                case "ArrowLeft":
+                    moveLeft();
+                    break;
+                    case "ArrowRight":
+                        moveLeft();
+                        break;
+                default:
+                    return
+            }
+            display()
+            assignRandom()
+            display()
+        })
+        
+        function changeColor(row,col){
+            let value=board[row][col];
+            return `hsla(220,${(100/12)*(Math.log2(value))}%,${100-(Math.log2(value)*12)}%,${100-(Math.log2(value)*12)}%)`
+        }
+        assignRandom();
+        assignRandom();
+        display();
         
