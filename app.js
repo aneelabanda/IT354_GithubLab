@@ -24,14 +24,14 @@ const board = [
         boardContainer.children[elem].style.color = "";
         boardContainer.children[elem].innerText = "";
         boardContainer.children[elem].style.backgroundColor = "";
-        elem++
+        elem++;
         } else {
         if (board[row][col] >= 128) {
         boardContainer.children(elem).style.color = "white";
         }
         boardContainer.children[elem].innerText = board[row][col];
         boardContainer.children[elem].style.backgroundColor = changeColor (row, col);
-        elem++
+        elem++;
         }
         }
         }
@@ -61,7 +61,7 @@ const board = [
             } catch {
         
             console. log ("game over");
-            }
+    }
 
         }
         }
