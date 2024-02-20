@@ -84,4 +84,4 @@ const board = [
         assignRandom();
         assignRandom();
         display();
-        
+        // tested and no errors -Anusha Vemula
