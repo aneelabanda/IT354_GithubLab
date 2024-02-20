@@ -84,10 +84,7 @@ const board = [
         assignRandom();
         assignRandom();
         display();
-<<<<<<< HEAD
-        // tested and no errors -Anusha Vemula
-=======
+// tested and no errors -Anusha Vemula
 
 // Tested and found no errors - Aneela Banda        
         
->>>>>>> cdb7cd59ba1e17425d25df4ef919d18c14e5558f
