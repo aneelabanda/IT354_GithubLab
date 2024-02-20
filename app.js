@@ -66,9 +66,9 @@ const board = [
                 case "ArrowLeft":
                     moveLeft();
                     break;
-                    case "ArrowRight":
-                        moveLeft();
-                        break;
+                case "ArrowRight":
+                    moveLeft();
+                    break;
                 default:
                     return
             }
@@ -84,4 +84,10 @@ const board = [
         assignRandom();
         assignRandom();
         display();
+<<<<<<< HEAD
         // tested and no errors -Anusha Vemula
+=======
+
+// Tested and found no errors - Aneela Banda        
+        
+>>>>>>> cdb7cd59ba1e17425d25df4ef919d18c14e5558f
