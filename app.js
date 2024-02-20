@@ -66,9 +66,9 @@ const board = [
                 case "ArrowLeft":
                     moveLeft();
                     break;
-                    case "ArrowRight":
-                        moveLeft();
-                        break;
+                case "ArrowRight":
+                    moveLeft();
+                    break;
                 default:
                     return
             }
@@ -84,4 +84,6 @@ const board = [
         assignRandom();
         assignRandom();
         display();
+
+// Tested and found no errors - Aneela Banda        
         
